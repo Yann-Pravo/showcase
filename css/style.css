@@ -1,0 +1,437 @@
+body, html {
+    background-color: #fbfaf9;
+    font-family: 'Proxima Nova Reg';
+    font-size:18px;
+}
+
+* {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+#tagline h3 {
+    font-family: 'Proxima Nova Reg';
+    text-transform:uppercase;
+    font-weight:600;
+}
+
+#tagline {
+    position:relative;
+}
+
+#tagline h3 {
+    display:inline-block;
+    font-size:16px;
+    letter-spacing:-1px;
+}
+
+#tagline h3#first {
+    position:relative;
+}
+
+#tagline h3#second {
+    float:right;
+    margin-right:64px;
+}
+
+#tagline h3 .brand {
+    font-family: 'Proxima Nova Bold';
+}
+
+header {
+    margin-left: 42px;
+}
+
+a {
+    text-decoration:none;
+}
+
+img#logo {
+    float:left;
+    min-width:50%;
+    max-width:90%;
+}
+
+menu {
+    margin-top:0px;
+    margin-right:64px;
+    float:right;
+}
+
+menu li {
+    list-style:none;
+    display:inline-block;
+}
+
+menu #social {
+    text-align:right;
+}
+
+menu #menu {
+    padding-left:0;
+}
+
+menu #menu li {
+    margin-left:24px;
+    margin-top:12px;
+}
+
+menu #menu a {
+    font-size:18px;
+    text-transform:uppercase;
+    color:black;
+}
+
+menu #menu a:hover {
+    border-bottom:6px solid #CCC;
+}
+
+menu #social img {
+    max-height:32px;
+    margin-left:6px;
+}
+
+
+menu #menu a.selected {
+    font-family: "Proxima Nova Bold";
+    border-bottom:6px solid black;
+}
+
+footer {
+    position:relative;
+    clear:both;
+    background: black;
+    color: white;
+    padding:24px 42px;
+    font-family: "Proxima Nova Reg";
+    font-size:14px;
+    letter-spacing:1px;
+}
+
+footer div {
+    margin-bottom:24px;
+}
+
+footer h2 {
+    text-transform:uppercase;
+    margin-bottom:24px;
+}
+
+footer h4 {
+    margin:24px 0;
+    text-transform:uppercase;
+    font-family: "Proxima Nova Bold";
+}
+
+footer a {
+    color:white;
+    font-style:italic;
+}
+
+#contact {
+    float:left;
+    min-width:33%;
+}
+
+#contact p {
+    max-width:24em;
+}
+
+#partenaires {
+    float:left;
+    min-width:33%;
+}
+
+#newsletter {
+    min-width:33%;
+    float:left;
+    margin-top:18px;
+}
+
+
+#newsletter input {
+    color:white;
+}
+
+table.table_part > tbody > tr > td {
+    padding-bottom: 3%;
+    padding-left: 3%;
+}
+
+table.table_part > tbody > tr > td:first-child {
+    padding-left: 0px;
+}
+
+.img_part {
+    width: 110px;
+    height: 60px;
+}
+
+.img_part img{
+    min-width: 100px;
+    max-width: 100px;
+}
+
+input.input_newsletter {
+    width: 75%;
+    padding: 10px 0 10px 5px;
+    background-color: black;
+    font-family: "Proxima Nova Reg";
+    border: none;
+}
+
+button {
+    font-family: "Proxima Nova Reg";
+    font-size:16px;
+    background-color: black;
+    border: none;
+    border-left: 1px solid white;
+    color: white;
+}
+
+.text_newsletter {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+.button_newsletter {
+    width: 50%;
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+main {
+    max-width:100%;
+    margin-bottom:0;
+    position:relative;
+    overflow:hidden;
+    min-height:33em;
+    padding:42px 42px 0 42px;
+}
+
+.clear {
+    clear:both;
+}
+
+#content {
+    width:100%;
+}
+
+#about {
+    float:left;
+    padding-top:42px;
+    width:44%;
+}
+
+#about p {
+    font-size:15px;
+    max-width:333px;
+    line-height:16px;
+    letter-spacing:1px;
+    margin-top: 0px;
+}
+
+#about h2 {
+    font-family: "Proxima Nova Bold";
+    font-size:20px;
+    text-transform:uppercase;
+    padding-bottom:12px;
+    border-bottom:3px solid black;
+    display:inline-block;
+    min-width:240px;
+}
+
+#about h4 {
+    font-family: "Proxima Nova Bold";
+    font-size:15px;
+    text-transform:uppercase;
+    letter-spacing:-1px;
+    margin-bottom:6px;
+}
+
+#colors img {
+    right:-200px;
+    position:absolute;
+    min-width:66%;
+}
+
+#calendar h4 {
+    text-transform:uppercase;
+    font-weight:600;
+    margin-bottom:0px;
+    width:44%;
+}
+
+#calendar {
+    float:left;
+    max-width:86%;
+}
+
+#friday {
+    float:left;
+}
+
+#weekend {
+    float:right;
+}
+
+#calendar h2 {
+    font-family:"Proxima Nova Bold";
+    text-transform:uppercase;
+    margin-bottom:12px;
+    margin-top:-6px;
+    letter-spacing:-1px;
+    font-size:24px;
+}
+
+#calendar h3 {
+    font-family:"Proxima Nova Bold";
+    letter-spacing:-1px;
+    text-transform:uppercase;
+    margin-top:6px;
+    margin-bottom:6px;
+}
+
+.day {
+    margin-right:60px;
+    float:left;
+    margin-bottom:1em;
+    min-height:200px;
+}
+
+#calendar .day {
+    clear:both;
+    min-width:240px;
+}
+
+#timetable span {
+    width:33%;
+}
+
+#months h4 {
+    display:inline-block;
+    width:33%;
+    margin-top:12px;
+    color:#666;
+}
+
+#fev {
+    text-align:left;
+}
+
+h4#mar {
+    text-align:center;
+    color:black;
+}
+
+.busy {
+    color:black;
+    font-family:"Proxima Nova Bold";
+    font-weight:100;
+    font-style:italic;
+}
+
+#avr {
+    text-align:right;
+}
+
+#timetable table {
+    width:100%;
+    text-align:center;
+}
+
+#timetable .daycontent {
+    padding-top:6px;
+}
+
+#timetable td {
+    padding:6px 0;
+}
+
+ul.lineup {
+    margin:0;
+    padding:0;
+}
+
+
+ul.lineup li {
+    text-transform:uppercase;
+    font-size:18px;
+    margin:-6px 0;
+    list-style:none;
+    font-family:"Proxima Nova Bold";
+    letter-spacing:-1px;
+}
+
+.daycontent {
+    border-top:3px solid black;
+    padding-top:24px;
+}
+
+#table_instagram {
+    margin:24px 0;
+    width:100%;
+}
+
+.img_instagram img {
+    width: 100%;
+}
+table#table_instagram > tbody > tr > td {
+    padding-bottom: 1%;
+}
+
+table#table_instagram > tbody > tr > td {
+    padding-left: 1%;
+}
+
+table#table_instagram > tbody > tr > td:first-child {
+    padding-left: 0px;
+}
+
+.img_instagram {
+    position: relative;
+    text-align: center;
+    border:10px solid black;
+}
+
+.img_instagram:after, .img_instagram:before {
+    position:absolute;
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.img_instagram:after {
+    content: attr(title);
+    font-family: "Proxima Nova Bold";
+    color: white;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.7);
+}
+
+.img_instagram:before {
+    font-family: "Proxima Nova Bold";
+    letter-spacing:-2px;
+    margin-left: 7.5%;
+    padding-bottom: 2%;
+    border-bottom: 5px solid white;
+    content: "VOIR SUR INSTAGRAM";
+    width:85%;
+    color:#fff;
+    z-index:1;
+    bottom:10%;
+}
+
+.img_instagram:hover:after, .img_instagram:hover:before {
+    opacity:1;
+}
+
+@media (max-width: 600px) {
+    #colors {
+        clear:both;
+    }
+}
